@@ -1,4 +1,4 @@
-# BasiGrad
+# BasicGrad
 
 Inspired by [micrograd](https://github.com/karpathy/micrograd)
 ## Simple Regression Model 
