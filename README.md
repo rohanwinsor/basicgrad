@@ -1,6 +1,6 @@
 # BasiGrad
 
-Inspired by [micrograd](!https://github.com/karpathy/micrograd)
+Inspired by [micrograd](https://github.com/karpathy/micrograd)
 ## Simple Regression Model 
 
 Training 
