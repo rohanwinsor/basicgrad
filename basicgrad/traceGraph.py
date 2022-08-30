@@ -1,5 +1,7 @@
 from graphviz import Digraph
+
 # import pydotplus
+
 
 def trace(root):
     nodes, edges = set(), set()
