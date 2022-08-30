@@ -16,3 +16,13 @@ class Neuron:
     
     def __repr__(self):
         return f"{'ReLU' if self.nonlin else 'Linear'}Neuron({len(self.w)})"
+
+class MSELoss:
+    def __call__(self, outs, preds):
+        losss = []
+        for out, pred in zip(outs, preds):
+            loss = (out - pred)**2
+            losss.append(loss)
+        loss = sum(losss)
+        return loss/len(losss)
+
